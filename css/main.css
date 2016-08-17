@@ -1,0 +1,49 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: #e9e9e9;
+	margin: 0;
+	padding: 0 0 1em;
+}
+.container {
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 4px #ccc;
+	-moz-box-shadow: 0 1px 4px #ccc;
+	box-shadow: 0 1px 4px #ccc;
+	width: 22%;
+	margin: 0.5em;
+	padding: 1em;
+	float: left;
+	clear: none;
+	min-height: 240px;
+}
+.text {
+	font-size: 1.2em;
+	word-wrap: break-word;
+}
+.created {
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-top: 0.75em;
+}
+.author {
+	height: 30px;
+	margin-top: 0.5em;
+}
+.avatar {
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin-bottom: -10px;
+}
+.media img {
+	margin: 0 auto;
+	max-width: 100%;
+}

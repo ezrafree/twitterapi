@@ -1,0 +1,26 @@
+# .gitignore
+
+# app
+config.php
+
+# composer
+vendor/
+composer.lock
+
+# Mac OS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+*~
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX
+Thumbs.db
+ehthumbs.db
+
+# Linux OS
+.swp.*
+*.swp.*
+*.swp
